@@ -1,0 +1,11 @@
+commit 69743bf1d0e24f7c207fa134ae4987f06dc47b78
+Author: Andal27 <alekseybodashka2511@outlook.com>
+Date:   Wed May 9 10:53:41 2018 -0500
+
+    He borrado la carpeta fontawesome.zip del proyecto
+
+commit 92e1e2090906f7dc98463cbc45ac61ba184b9792
+Author: Andal27 <alekseybodashka2511@outlook.com>
+Date:   Tue May 8 21:11:12 2018 -0500
+
+    archivos iniciales creados por mi
