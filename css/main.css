@@ -1,0 +1,139 @@
+*{
+	padding: 0;
+	margin: 0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+body{
+	background: url(../img/fondo.jpg);
+	background-repeat: no-repeat;
+}
+.header{
+	background: #00a0a4;
+	height: 80px;
+}
+.logo{
+	display: inline-block;
+	background: #a4ba29;
+	float: left;
+	margin:5px 0 0 5px;
+}
+
+.titulo{
+	display: inline-block;
+	width: 50%;
+	margin:30px auto;
+	margin-left: 230px;
+	height:70px;
+}
+.titulo h1{
+	text-align: center;
+	color: #FFF;
+	font-family: 'Gothic A1', sans-serif;
+}
+.container{
+	width: 30%;
+	height: 500px;
+	margin: 20px auto;
+	padding: 20px;
+	background: #fff;
+	border-radius: 10px;
+}
+
+.imagen-login{
+	margin: 10px auto 30px;
+	width: 70%;
+	height: 100px;
+	text-align: center;
+	border-radius: 20px;
+}
+.imagen-login img{
+	width: 50%;
+}
+form{
+	width: 85%;
+	margin: auto;
+	height: 300px;
+}
+
+
+.input{
+	font-family: FontAwesome; 
+	display: block;
+	color: #666666;
+	width: 100%;
+	margin:auto;
+	margin-top: 10px;
+	padding: 15px 15px 15px 45px;
+	border-radius: 5px; /*TODO:  poner en 25 px*/
+	font-size: 20px;
+	border:none;
+	background: #e6e6e6;
+}
+.input:focus{
+    color: #666666;
+    display: block;
+    font-size: 20px;
+    width: 100%;
+    background: #e6e6e6;
+    height: 50px;
+    border:none;
+    border-radius: 5px; /*TODO:  poner en 25 px*/
+    margin-top: 10px;
+    padding: 15px 15px 15px 45px;
+}
+
+
+.boton{
+	font-family: 'Roboto', sans-serif;
+	background-color: #00a0a4;
+    border-bottom: 4px solid #008882;
+    color: white;
+    font-weight: 700;
+    padding:15px;
+    font-size: 20px;
+    display: block;
+    margin-top:25px; 
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+	width: 100%;
+	border-radius: 5px; /*TODO:  poner en 25 px*/
+}
+
+.boton:hover{
+	cursor: pointer;
+	background-color: #FFF;
+    color: #00a0a4;
+    font-weight: 700;
+    padding:15px;
+    border-radius: 5px;  /*TODO:  poner en 25 px*/
+    font-size: 20px;
+    display: block;
+    margin-top:25px; 
+    border: 2px solid #00a0a4;
+}
+.boton:active{
+	cursor: pointer;
+	background-color: #FFF;
+    color: #00a0a4;
+    font-weight: 700;
+    padding:15px;
+    border-radius: 5px; /*TODO:  poner en 25 px*/
+    font-size: 20px;
+    display: block;
+    margin-top:25px; 
+    border: 2px solid #00a0a4;
+}
+.texto{
+	width: 100%;
+	margin:70px auto;
+}
+.texto p{
+	text-align: center;
+	font-family: 'Inconsolata', monospace;
+	font-size: 20px;
+	color:#666666;
+	font-weight: bold;
+}

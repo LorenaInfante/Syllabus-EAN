@@ -1,0 +1,153 @@
+*{
+	padding: 0;
+	margin:0;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.header{
+	background: #00a0a4;
+	height: 100px;
+	display: block;
+	position: relative;
+	border-bottom: 2px solid #fff;
+	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
+}
+header .icon-user{
+	position: absolute;
+	display: inline-block;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 0;
+
+}
+/*div donde va el titulo*/
+header .encabezado{
+	display: inline-block;
+	position: absolute; /*NO ENTIENDO POR QUÉ ME FUNCIONÓ*/
+	width: 70%;
+	height: 100px;
+	margin:0px 0px 5px 200px;
+	border-right: 2px solid #fff;
+	border-left: 2px solid #fff;
+	padding: 5px 20px;
+}
+/*titulo donde va el nombre del usuario*/
+header .encabezado h2{
+	text-align: center;
+	font-size: 30px;
+	color: #f2f2f2;
+	margin-top: 30px;
+}
+/*div que contiene el boton Salir*/
+header .btn-salir{
+	display: inline-block;
+	float:right;
+	margin-top: 20px;
+	margin-right:30px;	
+ }
+/*boton salir*/
+ header .btn-salir .btn{
+	font-family: 'Roboto', sans-serif;
+	background-color: #a4ba29;
+    color: white;
+    font-weight: 700;
+    padding:15px 50px;
+    font-size: 20px;
+    display: inline-block;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 5px ;
+ }
+ /*boton Salir cuando paso el mouse*/
+ header .btn-salir .btn:hover{
+	cursor: pointer;
+ }
+/*icono del usuario*/
+header .icon-user i{
+	font-size: 70px;
+	color:#fff;
+}
+/*Div principal*/
+.principal{
+	width: 100%;
+	height: 800px;
+}
+/*Div de la barra de busqueda*/
+.div-search{
+	display: inline-block;
+	width: 100%;
+	height: 100px;
+	border-bottom: 1px solid grey;
+	background: #00a0a4;
+}
+/*div de la barra de busqueda*/
+.inputs{
+	width: 70%;
+	margin: 10px auto;
+	padding: 5px;
+}
+/*Boton de la barra de busqueda*/
+.button-search{
+	font-family: 'Roboto', sans-serif;
+	background-color: #a4ba29;
+    color: white;
+    padding:15px 30px;
+    font-size: 20px;
+    display: inline-block;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 5px;
+}
+/*Boton de la barra de busqueda cuando paso el mouse*/
+.button-search:hover{
+	cursor: pointer;
+}
+/*Input de la  barra de busqueda*/
+.box-search{
+	margin-left: 20px;
+	width: 80%;
+	font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    padding:15px 30px;
+    font-size: 20px;
+    display: inline-block;
+    border-top: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-radius: 5px;
+}
+.grid-container{
+	background: #a4ba29;
+	display: grid;
+	grid-template-columns: repeat(5, 170px);
+	grid-gap: 7px;
+	justify-content: center;
+	padding-bottom: 50px;
+
+}
+.item{ 
+	margin-top: 20px; /*Buscar solucion a esto*/
+	height: 150px;
+	border-radius: 5px;
+	padding: 10px;
+	background: #fff;
+	box-shadow: 0px 0px 20px rgba(0,0,0,.5);
+}
+
+.item:hover{
+	background: #00a0a4;
+	cursor: pointer;
+}
+
+
+
+
+
+
+
+
