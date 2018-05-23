@@ -29,10 +29,7 @@
 				<input class="input" type="password" name="contraseña" placeholder="Contraseña"> <!--TODO: icono font awesome-->
 			
 				<button class="boton" type="submit">INGRESAR</button>
-				<div class="texto">
-					<p>Usuario: estudiante</p>
-					<p>Contraseña: estudiante</p>
-				</div>
+				
 			</form>
 	</div>
 	

@@ -126,14 +126,4 @@ form{
     margin-top:25px; 
     border: 2px solid #00a0a4;
 }
-.texto{
-	width: 100%;
-	margin:70px auto;
-}
-.texto p{
-	text-align: center;
-	font-family: 'Inconsolata', monospace;
-	font-size: 20px;
-	color:#666666;
-	font-weight: bold;
-}
+
